@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDA0011D1E5C1D8400595ABA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA0011C1E5C1D8400595ABA /* main.m */; };
+		FDA001201E5C1D8400595ABA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA0011F1E5C1D8400595ABA /* AppDelegate.m */; };
+		FDA001231E5C1D8400595ABA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA001221E5C1D8400595ABA /* ViewController.m */; };
+		FDA001261E5C1D8500595ABA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA001241E5C1D8500595ABA /* Main.storyboard */; };
+		FDA001281E5C1D8500595ABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA001271E5C1D8500595ABA /* Assets.xcassets */; };
+		FDA0012B1E5C1D8500595ABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA001291E5C1D8500595ABA /* LaunchScreen.storyboard */; };
+		FDA001341E5C277100595ABA /* ZXTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA001331E5C277100595ABA /* ZXTimerViewController.m */; };
+		FDA001381E5C290500595ABA /* ZXTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA001371E5C290500595ABA /* ZXTimer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FDA001181E5C1D8400595ABA /* ZXTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA0011C1E5C1D8400595ABA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDA0011E1E5C1D8400595ABA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDA0011F1E5C1D8400595ABA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDA001211E5C1D8400595ABA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FDA001221E5C1D8400595ABA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDA001251E5C1D8500595ABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDA001271E5C1D8500595ABA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDA0012A1E5C1D8500595ABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDA0012C1E5C1D8500595ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA001321E5C277100595ABA /* ZXTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXTimerViewController.h; sourceTree = "<group>"; };
+		FDA001331E5C277100595ABA /* ZXTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXTimerViewController.m; sourceTree = "<group>"; };
+		FDA001361E5C290500595ABA /* ZXTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXTimer.h; sourceTree = "<group>"; };
+		FDA001371E5C290500595ABA /* ZXTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXTimer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDA001151E5C1D8400595ABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDA0010F1E5C1D8400595ABA = {
+			isa = PBXGroup;
+			children = (
+				FDA0011A1E5C1D8400595ABA /* ZXTimer */,
+				FDA001191E5C1D8400595ABA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDA001191E5C1D8400595ABA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDA001181E5C1D8400595ABA /* ZXTimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDA0011A1E5C1D8400595ABA /* ZXTimer */ = {
+			isa = PBXGroup;
+			children = (
+				FDA001351E5C286A00595ABA /* Timer */,
+				FDA0011E1E5C1D8400595ABA /* AppDelegate.h */,
+				FDA0011F1E5C1D8400595ABA /* AppDelegate.m */,
+				FDA001211E5C1D8400595ABA /* ViewController.h */,
+				FDA001221E5C1D8400595ABA /* ViewController.m */,
+				FDA001241E5C1D8500595ABA /* Main.storyboard */,
+				FDA001271E5C1D8500595ABA /* Assets.xcassets */,
+				FDA001291E5C1D8500595ABA /* LaunchScreen.storyboard */,
+				FDA0012C1E5C1D8500595ABA /* Info.plist */,
+				FDA0011B1E5C1D8400595ABA /* Supporting Files */,
+				FDA001321E5C277100595ABA /* ZXTimerViewController.h */,
+				FDA001331E5C277100595ABA /* ZXTimerViewController.m */,
+			);
+			path = ZXTimer;
+			sourceTree = "<group>";
+		};
+		FDA0011B1E5C1D8400595ABA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDA0011C1E5C1D8400595ABA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDA001351E5C286A00595ABA /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				FDA001361E5C290500595ABA /* ZXTimer.h */,
+				FDA001371E5C290500595ABA /* ZXTimer.m */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDA001171E5C1D8400595ABA /* ZXTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA0012F1E5C1D8500595ABA /* Build configuration list for PBXNativeTarget "ZXTimer" */;
+			buildPhases = (
+				FDA001141E5C1D8400595ABA /* Sources */,
+				FDA001151E5C1D8400595ABA /* Frameworks */,
+				FDA001161E5C1D8400595ABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZXTimer;
+			productName = ZXTimer;
+			productReference = FDA001181E5C1D8400595ABA /* ZXTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDA001101E5C1D8400595ABA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zxm;
+				TargetAttributes = {
+					FDA001171E5C1D8400595ABA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = FDA001131E5C1D8400595ABA /* Build configuration list for PBXProject "ZXTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDA0010F1E5C1D8400595ABA;
+			productRefGroup = FDA001191E5C1D8400595ABA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDA001171E5C1D8400595ABA /* ZXTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDA001161E5C1D8400595ABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA0012B1E5C1D8500595ABA /* LaunchScreen.storyboard in Resources */,
+				FDA001281E5C1D8500595ABA /* Assets.xcassets in Resources */,
+				FDA001261E5C1D8500595ABA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDA001141E5C1D8400595ABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA001381E5C290500595ABA /* ZXTimer.m in Sources */,
+				FDA001341E5C277100595ABA /* ZXTimerViewController.m in Sources */,
+				FDA001231E5C1D8400595ABA /* ViewController.m in Sources */,
+				FDA001201E5C1D8400595ABA /* AppDelegate.m in Sources */,
+				FDA0011D1E5C1D8400595ABA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDA001241E5C1D8500595ABA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDA001251E5C1D8500595ABA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDA001291E5C1D8500595ABA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDA0012A1E5C1D8500595ABA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDA0012D1E5C1D8500595ABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDA0012E1E5C1D8500595ABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDA001301E5C1D8500595ABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ZXTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Richle.coding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDA001311E5C1D8500595ABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ZXTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Richle.coding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDA001131E5C1D8400595ABA /* Build configuration list for PBXProject "ZXTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA0012D1E5C1D8500595ABA /* Debug */,
+				FDA0012E1E5C1D8500595ABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA0012F1E5C1D8500595ABA /* Build configuration list for PBXNativeTarget "ZXTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA001301E5C1D8500595ABA /* Debug */,
+				FDA001311E5C1D8500595ABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDA001101E5C1D8400595ABA /* Project object */;
+}
